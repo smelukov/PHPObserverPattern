@@ -1,6 +1,6 @@
 PHPObserverPattern
 ==================
 
-Useful Observer pattern implementation on PHP
-Nothing to say here... :)
-Look at index.php
+Useful Observer pattern implementation on PHP<br>
+Nothing to say here... :)<br>
+Look at index.php<br>
