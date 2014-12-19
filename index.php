@@ -8,7 +8,7 @@ class Calculator implements Observer\IObservable {
     function calculate ($numbers)
     {
         $res = array_sum($numbers);
-        $this->notyfy('calculate', [$res]);
+        $this->notify('calculate', [$res]);
         return $res;
     }
 }
@@ -46,4 +46,4 @@ $calc->calculate([
     1
 ]);
 
-$calc->notyfy('some', [1000]);
+$calc->notify('some', [1000]);

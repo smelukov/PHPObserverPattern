@@ -49,7 +49,7 @@ trait Observable {
         return $arr;
     }
 
-    function notyfy ($eventName, $args = [])
+    function notify ($eventName, $args = [])
     {
         if ( isset($this->_observers[$eventName]) ) {
             /** @var IObserver $obs */
