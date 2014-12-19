@@ -1,4 +1,9 @@
 <?php
+/**
+ * @author  Sergey Melukov
+ * @link    http://smelukov.com
+ * @license MIT
+ */
 namespace SMelukov\Patterns\Observer;
 /**
  * Interface IObservable

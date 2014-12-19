@@ -1,4 +1,9 @@
 <?php
+/**
+ * @author  Sergey Melukov
+ * @link    http://smelukov.com
+ * @license MIT
+ */
 require_once 'autoloader.php';
 use SMelukov\Patterns\Observer;
 
